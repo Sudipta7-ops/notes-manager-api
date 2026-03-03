@@ -7,6 +7,7 @@ This project demonstrates backend API development including authentication, CRUD
 ---
 
 ## Overview
+This API is built as a backend portfolio project to demonstrate production-ready REST architecture.
 
 The API allows users to:
 
@@ -90,20 +91,28 @@ python manage.py runserver
 
 ---
 
+## Authentication
+
+Obtain access and refresh tokens:
+
+POST /api/token/
+POST /api/token/refresh/
+
+After obtaining the access token, include it in the request header:
+
+Authorization: Bearer <your_access_token>
+
+---
+
 ## API Endpoints
-
-Authentication:
-
-- POST /api/token/  
-- POST /api/token/refresh/  
 
 Notes:
 
-- GET /notes/  
-- POST /notes/  
-- GET /notes/<id>/  
-- PUT /notes/<id>/  
-- DELETE /notes/<id>/  
+- GET /notes/
+- POST /notes/
+- GET /notes/<id>/
+- PUT /notes/<id>/
+- DELETE /notes/<id>/
 
 ---
 
