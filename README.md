@@ -74,9 +74,9 @@ cd notes-manager-api
 ```   
 
 3. Create virtual environment
-
+```
 python -m venv venv  
-
+```
 3. Activate virtual environment
 
 Windows:  
