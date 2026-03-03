@@ -58,14 +58,22 @@ notes-manager-api/
 
 ---
 
+## Requirements
+
+- Python 3.10+
+- pip
+- virtual environment (recommended)
+
 ## Installation
 
 1. Clone the repository
 
-git clone https://github.com/Sudipta7-ops/notes-manager-api.git 
-cd notes-manager-api  
+```
+git clone https://github.com/Sudipta7-ops/notes-manager-api.git
+cd notes-manager-api
+```   
 
-2. Create virtual environment
+3. Create virtual environment
 
 python -m venv venv  
 
@@ -117,12 +125,12 @@ Notes:
 ---
 
 ## Example Note Request Body
-
+```
 {
   "title": "My First Note",
   "content": "This is a sample note."
 }
-
+```
 ---
 
 ## Learning Outcomes
