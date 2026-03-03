@@ -94,13 +94,13 @@ pip install -r requirements.txt
 ```
 
 5. Run migrations
-
+```
 python manage.py migrate  
-
+```
 6. Start server
-
+```
 python manage.py runserver  
-
+```
 ---
 
 ## Authentication
