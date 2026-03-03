@@ -73,7 +73,7 @@ git clone https://github.com/Sudipta7-ops/notes-manager-api.git
 cd notes-manager-api
 ```   
 
-3. Create virtual environment
+2. Create virtual environment
 ```
 python -m venv venv  
 ```
