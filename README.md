@@ -61,7 +61,7 @@ notes-manager-api/
 
 1. Clone the repository
 
-git clone <your-repo-url>  
+git clone https://github.com/Sudipta7-ops/notes-manager-api.git 
 cd notes-manager-api  
 
 2. Create virtual environment
