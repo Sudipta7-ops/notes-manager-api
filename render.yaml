@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: notes-api
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: bash build.sh
+    startCommand: gunicorn notes_api.wsgi
+    envVars:
+      - key: DEBUG
+        value: false
+      - key: PYTHON_VERSION
+        value: 3.11
+    databases:
+      - name: notes_db
+        databaseName: notes_db
+        user: notes_user
+
+databases:
+  - name: notes_db
+    databaseName: notes_db
+    user: notes_user
+    plan: free

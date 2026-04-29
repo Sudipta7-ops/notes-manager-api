@@ -6,9 +6,9 @@ A RESTful API for managing personal notes with JWT authentication, built with Dj
 
 ## Live Demo
 
-**Base URL:** https://notes-manager-api-3hd6.onrender.com
+**Base URL:** https://notes-manager-api-3hd6.onrender.com/api/notes/
 
-> Note: Free tier — may take 50 seconds to wake up on first request.
+> Note: Free tier ï¿½ may take 50 seconds to wake up on first request.
 
 ---
 
@@ -60,4 +60,4 @@ python manage.py runserver
 
 ## Author
 
-**Sudipta Barik** — [LinkedIn](https://linkedin.com/in/sudipta-barik) | [GitHub](https://github.com/Sudipta7-ops)
+**Sudipta Barik** ï¿½ [LinkedIn](https://linkedin.com/in/sudipta-barik) | [GitHub](https://github.com/Sudipta7-ops)
